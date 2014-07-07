@@ -1,0 +1,399 @@
+{
+    "employments": [
+        {
+            "date": "Nov 2013 - Present",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "address": "Minsk, Belarus",
+            "position": "Senior Software Engineer, Team Leader",
+            "responsibilities": "Application design and development, team management, training employees, communication with customers, requirements analysis, documentation"
+        },
+        {
+            "date": "Sep 2012 - Oct 2013",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "address": "Minsk, Belarus",
+            "position": "Senior Software Engineer",
+            "responsibilities": "Application design and development, communication with customers, documentation"
+        },
+        {
+            "date": "Sep 2010 - Aug 2012",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "address": "Minsk, Belarus",
+            "position": "Software Engineer",
+            "responsibilities": "Application design and development, communication with customers"
+        },
+        {
+            "date": "Sep 2009 - Aug 2010",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "address": "Minsk, Belarus",
+            "position": "Junior Software Engineer",
+            "responsibilities": "Application design and development"
+        }
+    ],
+    "educations": [
+        {
+            "date": "Sep 2005 - Jun 2010",
+            "institution": "Belarusian State University of Informatics and Radioelectronics",
+            "address": "Minsk, Belarus",
+            "faculty": "Information Technologies and Control",
+            "department": "Artificial Intelligence",
+            "qualification": "Engineer - Systems Analyst"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "experience": "Upper-Intermediate"
+        },
+        {
+            "language": "German",
+            "experience": "Basic, Goethe-Zertifikat A1: Start Deutsch 1"
+        },
+        {
+            "language": "Russian",
+            "experience": "Mother Tongue"
+        },
+        {
+            "language": "Belarusian",
+            "experience": "Mother Tongue"
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Design Patterns in Java",
+            "awarded": "XP Injection",
+            "url": "http://xpinjection.com",
+            "date": "Feb 2014"
+        },
+        {
+            "title": "Goethe-Zertifikat A1: Start Deutsch 1",
+            "awarded": "Goethe-Institut Minsk",
+            "url": "http://www.goethe.de",
+            "date": "Jan 2014"
+        },
+        {
+            "title": "Planning and Estimation in Agile Project",
+            "awarded": "XP Injection",
+            "url": "http://xpinjection.com",
+            "date": "Aug 2013"
+        },
+        {
+            "title": "Kanban for Project Management",
+            "awarded": "XP Injection",
+            "url": "http://xpinjection.com",
+            "date": "Aug 2013"
+        },
+        {
+            "title": "Agile Engineering Practices",
+            "awarded": "XP Injection",
+            "url": "http://xpinjection.com",
+            "date": "Feb 2013"
+        },
+        {
+            "title": "Computer Networks",
+            "awarded": "University of Washington, Coursera",
+            "url": "https://www.coursera.org/course/comnetworks",
+            "date": "Jan 2013"
+        },
+        {
+            "title": "TDD in Java",
+            "awarded": "Pragmatists",
+            "url": "http://www.pragmatists.pl",
+            "date": "Dec 2012"
+        },
+        {
+            "title": "Human-Computer Interaction",
+            "awarded": "Stanford University, Coursera",
+            "url": "http://online.stanford.edu/course/hci",
+            "date": "Sep 2012"
+        },
+        {
+            "title": "Project Management Basics",
+            "awarded": "Project Office",
+            "url": "http://www.pmoffice.by",
+            "date": "Sep 2012"
+        },
+        {
+            "title": "Usability Basics",
+            "awarded": "Analyst.by",
+            "url": "http://analyst.by",
+            "date": "Sep 2012"
+        },
+        {
+            "title": "Business Analysis Basics",
+            "awarded": "Analyst.by",
+            "url": "http://analyst.by",
+            "date": "Mar 2012"
+        },
+        {
+            "title": "Industrial software design with Java",
+            "awarded": "Epam Systems",
+            "url": "http://www.epam.com",
+            "date": "Sep 2008"
+        },
+        {
+            "title": "Basics of Software Testing",
+            "awarded": "ITransition",
+            "url": "http://www.itransition.com",
+            "date": "Jan 2008"
+        }
+    ],
+    "prolanguages": [
+        {
+            "skill": "Java",
+            "experience": "5",
+            "proficiency": "Excellent",
+            "first": "true"
+        },
+        {
+            "skill": "SQL",
+            "experience": "3",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "Bash Script",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "JavaScript",
+            "experience": "1",
+            "proficiency": "Basic"
+        },
+        {
+            "skill": "C#",
+            "experience": "1",
+            "proficiency": "Basic"
+        },
+        {
+            "skill": "PHP",
+            "experience": "1",
+            "proficiency": "Basic"
+        }
+    ],
+    "technologies": [
+        {
+            "skill": "J2SE",
+            "experience": "5",
+            "proficiency": "Excellent",
+            "first": "true"
+        },
+        {
+            "skill": "Hibernate",
+            "experience": "3",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "Spring Framework",
+            "experience": "3",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "Java Servlets, JSP",
+            "experience": "3",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "J2EE",
+            "experience": "3",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "Android SDK",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "Swing",
+            "experience": "1",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "JUnit, Mockito, Powermock",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "SOAP, REST",
+            "experience": "3",
+            "proficiency": "Good"
+        },
+        {
+            "skill": ".NET",
+            "experience": "1",
+            "proficiency": "Basic"
+        }
+    ],
+    "os": [
+        {
+            "skill": "MS Windows",
+            "experience": "6",
+            "proficiency": "Excellent",
+            "first": "true"
+        },
+        {
+            "skill": "Linux",
+            "experience": "3",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "Mac OS X",
+            "experience": "2",
+            "proficiency": "Good"
+        }
+    ],
+    "rdbms": [
+        {
+            "skill": "MS SQL",
+            "experience": "2",
+            "proficiency": "Good",
+            "first": "true"
+        },
+        {
+            "skill": "PostgreSQL",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "MySQL",
+            "experience": "1",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "H2database",
+            "experience": "1",
+            "proficiency": "Good"
+        }
+    ],
+    "servers": [
+        {
+            "skill": "Apache Tomcat",
+            "experience": "3",
+            "proficiency": "Good",
+            "first": "true"
+        },
+        {
+            "skill": "Jetty",
+            "experience": "1",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "IIS",
+            "experience": "1",
+            "proficiency": "Basic"
+        }
+    ],
+    "tools": [
+        {
+            "skill": "SVN",
+            "experience": "5",
+            "proficiency": "Excellent",
+            "first": "true"
+        },
+        {
+            "skill": "Git",
+            "experience": "2",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "IBM ClearCase",
+            "experience": "3",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "Teamcity",
+            "experience": "2",
+            "proficiency": "Excellent"
+        },
+        {
+            "skill": "Hudson/Jenkins",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "Atlassian JIRA",
+            "experience": "4",
+            "proficiency": "Good"
+        }
+    ],
+    "ide": [
+        {
+            "skill": "IntelliJ IDEA",
+            "experience": "3",
+            "proficiency": "Excellent",
+            "first": "true"
+        },
+        {
+            "skill": "Eclipse",
+            "experience": "2",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "NetBeans",
+            "experience": "1",
+            "proficiency": "Good"
+        },
+        {
+            "skill": "MS Visual Studio",
+            "experience": "1",
+            "proficiency": "Good"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Event Service",
+            "description": "Event Service is an extension to VMWare vCenter which uses polling-based approach to handle servers monitoring events through CIM and SNMP indications. Through Event Service extension VMWare Infrastructure (e.g. vSphere Web Client plugins) can operate vendor-specific information.",
+            "position": "Senior Software Engineer, Team Leader",
+            "responsibilities": "Implementation the SNMP protocol, user authentication mechanism, SSL certificates verification, performance tuning, communication with customers, requirements analysis, team management, documentation",
+            "technologies": "Java, Spring, Hibernate, Flex, H2database, SBLIM CIM Client, SNMP4j, SOAP, JUnit, Maven",
+            "os": "Windows 2008/2012",
+            "duration": "Jan 2013 - Present"
+        },
+        {
+            "name": "SPM",
+            "description": "The goal of SPM is a monitoring and managing power consumption of PRIMERGY servers. SPM supports discovery and tracking for these servers and power management using IPMI, SNMP, CIM, CLP protocols.",
+            "position": "Software Engineer",
+            "responsibilities": "Implementation the CLP protocol, SOAP part implementation, JVM performance tuning, bugfixing",
+            "technologies": "Java, Tomcat, Jetty, Hibernate, Spring, Apache Wicket, Quartz, H2database, MS SQL, PostgreSQL, JUnit SMNP4j, IPMI, WinPCAP, SBLIM CIM Client",
+            "os": "Windows 2003/2008/7, SLES 10/11, RHEL 5/6",
+            "duration": "Jan 2012 - Sep 2012"
+        },
+        {
+            "name": "VIOM",
+            "description": "The goal of the project is allow the configuration and management the input/output parameters of the PRIMERGY Blade Servers as well as the LAN connection modules and Intelligent Blade Panel (IBP), virtualizing and saving the server blade-specific I/O parameters in a hardware-independent server profile.",
+            "position": "Senior Software Engineer, Team Leader",
+            "responsibilities": "Support of IPMI protocol, encryption algorithms (HMAC-SHA1, HMAC-SHA1-96, AES-CBC-128), SSH performance improvements, build system improvements, bugfixing, communication with customers, requirements analysis, team management, documentation",
+            "technologies": "Java, Swing, Hibernate, MS SQL, PostgreSQL, IPMI, Ganymed SSH, Maverick SSH, Quartz, Apache Ant, JUnit, Mockito, PowerMock",
+            "os": "Windows 2003/2008, SLES 10/11, RHEL 5/6",
+            "duration": "Sep 2010 - Present"
+        },
+        {
+            "name": "LCD_bTV",
+            "description": "The goal of project is improving team collaboration. It represents number of gadgets displaying information about project and build statuses, monitoring of web resources, custom messages, webcam gadget. Gadgets are displayed on 42-inch monitors located in different parts of the office, so every team member can track essential information.",
+            "position": "Software Engineer",
+            "responsibilities": "Developing the domain model, integration with Microsoft TFS",
+            "technologies": "C#, .NET, Microsoft Silverlight, Microsoft Team Foundation Server, Microsoft Sharepoint",
+            "os": "Windows 2003/2008",
+            "duration": "Sep 2009 - Aug 2010"
+        }
+    ],
+    "personalTrainings": [
+        {
+            "title": "User Experience Design",
+            "link": "http://www.slideshare.net/guvarov/1-29070080",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "date": "Jan 2013"
+        },
+        {
+            "title": "Human Centered Design",
+            "link": "http://www.slideshare.net/guvarov/human-centered-design-29070116",
+            "company": "SaM Solutions Belarus",
+            "url": "http://www.sam-solutions.com",
+            "date": "Feb 2013"
+        }
+    ]
+}
