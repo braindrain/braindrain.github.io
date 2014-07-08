@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta name="description" content="Gleb Uvarov. Software Engineer. Team Leader"/>
-    <meta name="keywords"
-          content="Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, Minsk, Belarus, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Engineer – Systems Analyst, Java, SQl, Bash Script, JavaScript, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux"/>
-    <meta name="author" content="Gleb Uvarov"/>
+    <meta name="description" content="{{author}}. {{title1}}. {{title2}}"/>
+    <meta name="keywords" content="{{keywords}}"/>
+    <meta name="author" content="{{author}}"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="files/images/favicons/mstile-144x144.png">
@@ -27,7 +26,7 @@
     <!--<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>-->
     <!--<![endif]-->
     <link href="documents/styles/personal.css" rel="stylesheet">
-    <title>Gleb Uvarov. Software Engineer. Team Leader</title>
+    <title>{{author}}. {{title1}}. {{title2}}</title>
 </head>
 <body data-spy="scroll" data-target="#sideNavbar" id="top">
 
@@ -60,10 +59,10 @@
 <div class="row">
     <div class="col-md-3">
         <div class="row">
-            <h1 class="title-name">Gleb Uvarov</h1>
+            <h1 class="title-name">{{author}}</h1>
         </div>
         <div class="row">
-            <p class="lead title-status">Software Engineer<br/>Team Leader</p>
+            <p class="lead title-status">{{title1}}<br/>{{title2}}</p>
         </div>
     </div>
 </div>
@@ -75,41 +74,41 @@
 <div class="col-md-3">
     <div class="row">
         <div class="title-img">
-            <img class="img-sidebar img-thumbnail" src="files/images/Uvarov.png" alt="Gleb Uvarov">
+            <img class="img-sidebar img-thumbnail" src="files/images/Uvarov.png" alt="{{author}}">
         </div>
     </div>
     <div class="row" id="sideNavbar">
         <div class="bs-docs-sidebar hidden-print" id="resumeSections" role="complementary">
             <ul class="nav bs-docs-sidenav">
                 <li>
-                    <a href="#personal">Personal Information</a>
+                    <a href="#personal">{{messages.personalInformation}}</a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#experience">{{messages.experience}}</a>
                 </li>
                 <li>
-                    <a href="#employment">Employment History</a>
+                    <a href="#employment">{{messages.employmentHistory}}</a>
                 </li>
                 <li>
-                    <a href="#education">Education</a>
+                    <a href="#education">{{messages.education}}</a>
                 </li>
                 <li>
-                    <a href="#languages">Languages</a>
+                    <a href="#languages">{{messages.knownLanguages}}</a>
                 </li>
                 <li>
-                    <a href="#courses">Courses and Certificates</a>
+                    <a href="#courses">{{messages.coursesNCertificates}}</a>
                 </li>
                 <li>
-                    <a href="#skills">Technical Skills</a>
+                    <a href="#skills">{{messages.techSkills}}</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects">{{messages.techProjects}}</a>
                 </li>
                 <li>
-                    <a href="#trainings">Personal Trainings</a>
+                    <a href="#trainings">{{messages.trainings}}</a>
                 </li>
             </ul>
-            <a href="#top" class="back-to-top">Back to top</a>
+            <a href="#top" class="back-to-top">{{messages.backToTop}}</a>
         </div>
     </div>
 </div>
@@ -118,31 +117,31 @@
 <!-- Main -->
 <div class="col-md-9">
 <section class="block" id="personal">
-    <h2 class="first">Personal Information</h2>
+    <h2 class="first">{{personalInformation}}</h2>
     <table class="description">
         <tbody>
         <tr>
-            <td>Address :</td>
-            <td>Minsk, Belarus</td>
+            <td>{{messages.address}} :</td>
+            <td>{{personalInfo.address}}</td>
         </tr>
         <tr>
-            <td>Phone :</td>
-            <td>+375 29 11 22 987</td>
+            <td>{{messages.phone}} :</td>
+            <td>{{personalInfo.phone}}</td>
         </tr>
         <tr>
-            <td>E-mail :</td>
-            <td><a href="mailto:g.uvarov@gmail.com">g.uvarov@gmail.com</a></td>
+            <td>{{messages.email}} :</td>
+            <td><a href="mailto:{{personalInfo.email}}">{{personalInfo.email}}</a></td>
         </tr>
         <tr>
-            <td>Skype :</td>
-            <td><a href="skype:g.uvarov">g.uvarov</a></td>
+            <td>{{messages.skype}} :</td>
+            <td><a href="skype:{{personalInfo.skype}}">{{personalInfo.skype}}</a></td>
         </tr>
         <tr>
-            <td>Date of Birth :</td>
-            <td>Dec 29, 1987</td>
+            <td>{{messages.birthday}} :</td>
+            <td>{{personalInfo.birthday}}</td>
         </tr>
         <tr>
-            <td>Social :</td>
+            <td>{{messages.social}} :</td>
             <td>
                 <a href="http://www.linkedin.com/in/glebuvarov">
                     <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png"
@@ -158,52 +157,42 @@
 </section>
 
 <section class="block" id="experience">
-    <h2>Experience</h2>
+    <h2>{{messages.experience}}</h2>
     <table class="description">
         <tbody>
+        {{#experience}}
         <tr>
             <td>&bull;&nbsp;</td>
-            <td>4 years of experience in design and development of Java applications</td>
+            <td>{{headline}}</td>
         </tr>
-        <tr>
-            <td>&bull;&nbsp;</td>
-            <td>J2EE, Spring, Hibernate, SOAP, REST</td>
-        </tr>
-        <tr>
-            <td>&bull;&nbsp;</td>
-            <td>Network protocols, Linux, performance tuning, cryptography</td>
-        </tr>
-        <tr>
-            <td>&bull;&nbsp;</td>
-            <td>Team management, requirements analysis, training employees</td>
-        </tr>
+        {{/experience}}
         </tbody>
     </table>
 </section>
 
 <section class="block" id="employment">
-    <h2>Employment History</h2>
+    <h2>{{messages.employmentHistory}}</h2>
     {{#employments}}
     <table class="description">
         <tbody>
         <tr>
-            <td>Date :</td>
+            <td>{{messages.date}} :</td>
             <td>{{date}}</td>
         </tr>
         <tr>
-            <td>Company :</td>
+            <td>{{messages.company}} :</td>
             <td><a href="{{url}}">{{company}}</a></td>
         </tr>
         <tr>
-            <td>Address :</td>
+            <td>{{messages.address}} :</td>
             <td>{{address}}</td>
         </tr>
         <tr>
-            <td>Position :</td>
+            <td>{{messages.position}} :</td>
             <td>{{position}}</td>
         </tr>
         <tr>
-            <td>Responsibilities :</td>
+            <td>{{messages.responsibilities}} :</td>
             <td>{{responsibilities}}</td>
         </tr>
         </tbody>
@@ -212,32 +201,32 @@
 </section>
 
 <section class="block" id="education">
-    <h2>Education</h2>
+    <h2>{{messages.education}}</h2>
     {{#educations}}
     <table class="description">
         <tbody>
         <tr>
-            <td>Date :</td>
+            <td>{{messages.date}} :</td>
             <td>{{date}}</td>
         </tr>
         <tr>
-            <td>Educational Institution :</td>
+            <td>{{messages:institution}} :</td>
             <td>{{institution}}</td>
         </tr>
         <tr>
-            <td>Address :</td>
+            <td>{{messages.address}} :</td>
             <td>{{address}}</td>
         </tr>
         <tr>
-            <td>Faculty :</td>
+            <td>{{messages:faculty}} :</td>
             <td>{{faculty}}</td>
         </tr>
         <tr>
-            <td>Department :</td>
+            <td>{{messages:department}} :</td>
             <td>{{department}}</td>
         </tr>
         <tr>
-            <td>Qualification :</td>
+            <td>{{messages:qualification}} :</td>
             <td>{{qualification}}</td>
         </tr>
         </tbody>
@@ -246,7 +235,7 @@
 </section>
 
 <section class="block" id="languages">
-    <h2>Languages</h2>
+    <h2>{{messages.knownLanguages}}</h2>
     <table class="description">
         <tbody>
         {{#languages}}
@@ -260,20 +249,20 @@
 </section>
 
 <section class="block" id="courses">
-    <h2>Courses and Certificates</h2>
+    <h2>{{messages.coursesNCertificates}}</h2>
     {{#certificates}}
     <table class="description">
         <tbody>
         <tr>
-            <td>Title :</td>
+            <td>{{messages:title}} :</td>
             <td>{{title}}</td>
         </tr>
         <tr>
-            <td>Awarded :</td>
+            <td>{{messages:awarded}} :</td>
             <td><a href="{{url}}">{{awarded}}</a></td>
         </tr>
         <tr>
-            <td>Date :</td>
+            <td>{{messages.date}} :</td>
             <td>{{date}}</td>
         </tr>
         </tbody>
@@ -282,14 +271,14 @@
 </section>
 
 <section class="block" id="skills">
-    <h2>Technical Skills</h2>
+    <h2>{{messages.techSkills}}</h2>
     <table class="description">
         <tbody>
         <tr style="font-weight: bold;">
             <td class="transparent"></td>
-            <td>Technology</td>
-            <td class="experience">Experience (years)</td>
-            <td class="proficiency">Proficiency</td>
+            <td>{{messages.technology}}</td>
+            <td class="experience">{{messages.experienceYears}}</td>
+            <td class="proficiency">{{messages.proficiency}}</td>
         </tr>
         </tbody>
     </table>
@@ -298,8 +287,8 @@
         <tbody>
         {{#prolanguages}}
         <tr>
-            <td>{{#first}}Programming <br/>
-                Languages :{{/first}}
+            <td>{{#first}}{{messages.programming}} <br/>
+                {{messages.languages}} :{{/first}}
             </td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
@@ -312,7 +301,7 @@
         {{#technologies}}
         <tbody>
         <tr>
-            <td>{{#first}}Technologies :{{/first}}</td>
+            <td>{{#first}}{{messages.technologies}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -324,7 +313,7 @@
         {{#os}}
         <tbody>
         <tr>
-            <td>{{#first}}Operating Systems :{{/first}}</td>
+            <td>{{#first}}{{messages.os}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -336,7 +325,7 @@
         <tbody>
         {{#rdbms}}
         <tr>
-            <td>{{#first}}RDBMSs :{{/first}}</td>
+            <td>{{#first}}{{messages.rdbms}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -348,7 +337,7 @@
         <tbody>
         {{#servers}}
         <tr>
-            <td>{{#first}}Application Servers :{{/first}}</td>
+            <td>{{#first}}{{messages.appServers}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -360,7 +349,7 @@
         <tbody>
         {{#tools}}
         <tr>
-            <td>{{#first}}CASE &amp; Project Tools :{{/first}}</td>
+            <td>{{#first}}{{messages.tools}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -372,7 +361,7 @@
         <tbody>
         {{#ide}}
         <tr>
-            <td>{{#first}}IDEs :{{/first}}</td>
+            <td>{{#first}}{{messages.ides}} :{{/first}}</td>
             <td>{{skill}}</td>
             <td class="experience">{{experience}}</td>
             <td class="proficiency">{{proficiency}}</td>
@@ -383,36 +372,36 @@
 </section>
 
 <section class="block" id="projects">
-    <h2>Projects</h2>
+    <h2>{{messages.techProjects}}</h2>
     {{#projects}}
     <table class="description">
         <tbody>
         <tr>
-            <td>Project Name :</td>
+            <td>{{messages.projectName}} :</td>
             <td>{{name}}</td>
         </tr>
         <tr>
-            <td>Project Description :</td>
+            <td>{{messages.projectDescription}} :</td>
             <td>{{description}}</td>
         </tr>
         <tr>
-            <td>Position :</td>
+            <td>{{messages.position}} :</td>
             <td>{{position}}</td>
         </tr>
         <tr>
-            <td>Responsibilities :</td>
+            <td>{{messages.responsibilities}} :</td>
             <td>{{responsibilities}}</td>
         </tr>
         <tr>
-            <td>Technologies :</td>
+            <td>{{messages.technologies}} :</td>
             <td>{{technologies}}</td>
         </tr>
         <tr>
-            <td>Operating Systems :</td>
+            <td>{{messages.os}} :</td>
             <td>{{os}}</td>
         </tr>
         <tr>
-            <td>Project Duration :</td>
+            <td>{{messages.projectDuration}} :</td>
             <td>{{duration}}</td>
         </tr>
         </tbody>
@@ -421,26 +410,26 @@
 </section>
 
 <section class="block" id="trainings">
-    <h2>Personal Trainings</h2>
+    <h2>{{messages.trainings}}</h2>
     {{#personalTrainings}}
     <table class="description">
         <tbody>
         <tr>
-            <td>Title :</td>
+            <td>{{messages.title}} :</td>
             <td>{{title}}</td>
         </tr>
         <tr>
-            <td>Presentation :</td>
+            <td>{{messages.presentation}} :</td>
             <td>
                 <a href="{{link}}">{{link}}</a>
             </td>
         </tr>
         <tr>
-            <td>Presented at :</td>
+            <td>{{messages.presentedAt}} :</td>
             <td>{{company}}, {{url}}</td>
         </tr>
         <tr>
-            <td>Date :</td>
+            <td>{{messages.date}} :</td>
             <td>{{date}}</td>
         </tr>
         </tbody>
@@ -456,7 +445,7 @@
 
 <div class="footer">
     <div class="container">
-        <p class="text-muted" style="text-align: right">&copy; 2014 Gleb Uvarov</p>
+        <p class="text-muted" style="text-align: right">&copy; {{years}} {{author}}</p>
     </div>
 </div>
 

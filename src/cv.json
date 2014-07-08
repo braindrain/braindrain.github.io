@@ -1,4 +1,33 @@
 {
+    "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, Minsk, Belarus, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Engineer – Systems Analyst, Java, SQl, Bash Script, JavaScript, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
+    "author": "Gleb Uvarov",
+    "title1": "Software Engineer",
+    "title2": "Team Leader",
+    "years": "2014",
+
+    "personalInfo": {
+        "address": "Minsk, Belarus",
+        "phone": "+375 29 11 22 987",
+        "email": "g.uvarov@gmail.com",
+        "skype": "g.uvarov",
+        "birthday": "Dec 29, 1987"
+    },
+
+    "experience": [
+        {
+            "headline": "4 years of experience in design and development of Java applications"
+        },
+        {
+            "headline": "J2EE, Spring, Hibernate, SOAP, REST"
+        },
+        {
+            "headline": "Network protocols, Linux, performance tuning, cryptography"
+        },
+        {
+            "headline": "Team management, requirements analysis, training employees"
+        }
+    ],
+
     "employments": [
         {
             "date": "Nov 2013 - Present",
@@ -395,5 +424,50 @@
             "url": "http://www.sam-solutions.com",
             "date": "Feb 2013"
         }
-    ]
+    ],
+
+    "messages": {
+        "address": "Address",
+        "phone": "Phone",
+        "email": "E-mail",
+        "skype": "Skype",
+        "birthday": "Date of Birth",
+        "social": "Social",
+        "date": "Date",
+        "position": "Position",
+        "company": "Company",
+        "responsibilities": "Responsibilities",
+        "institution": "Educational Institution",
+        "faculty": "Faculty",
+        "department": "Department",
+        "qualification": "Qualification",
+        "title": "Title",
+        "awarded": "Awarded",
+        "technology": "Technology",
+        "experienceYears": "Experience (years)",
+        "proficiency": "Proficiency",
+        "programming": "Programming",
+        "languages": "Languages",
+        "technologies": "Technologies",
+        "os": "Operating Systems",
+        "rdbms": "RDBMSs",
+        "appServers": "Application Servers",
+        "tools": "CASE &amp; Project Tools",
+        "ides": "IDEs",
+        "projectName": "Project Name",
+        "projectDescription": "Project Description",
+        "projectDuration": "Project Duration",
+        "presentation": "Presentation",
+        "presentedAt": "Presented at",
+        "personalInformation": "Personal Information",
+        "experience": "Experience",
+        "employmentHistory": "Employment History",
+        "education": "Education",
+        "knownLanguages": "Languages",
+        "coursesNCertificates": "Courses and Certificates",
+        "techSkills": "Technical Skills",
+        "techProjects": "Projects",
+        "trainings": "Personal Trainings",
+        "backToTop": "Back to top"
+    }
 }
