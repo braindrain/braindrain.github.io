@@ -117,7 +117,7 @@
 <!-- Main -->
 <div class="col-md-9">
 <section class="block" id="personal">
-    <h2 class="first">{{personalInformation}}</h2>
+    <h2 class="first">{{messages.personalInformation}}</h2>
     <table class="description">
         <tbody>
         <tr>
@@ -210,7 +210,7 @@
             <td>{{date}}</td>
         </tr>
         <tr>
-            <td>{{messages:institution}} :</td>
+            <td>{{messages.institution}} :</td>
             <td>{{institution}}</td>
         </tr>
         <tr>
@@ -218,15 +218,15 @@
             <td>{{address}}</td>
         </tr>
         <tr>
-            <td>{{messages:faculty}} :</td>
+            <td>{{messages.faculty}} :</td>
             <td>{{faculty}}</td>
         </tr>
         <tr>
-            <td>{{messages:department}} :</td>
+            <td>{{messages.department}} :</td>
             <td>{{department}}</td>
         </tr>
         <tr>
-            <td>{{messages:qualification}} :</td>
+            <td>{{messages.qualification}} :</td>
             <td>{{qualification}}</td>
         </tr>
         </tbody>
@@ -254,11 +254,11 @@
     <table class="description">
         <tbody>
         <tr>
-            <td>{{messages:title}} :</td>
+            <td>{{messages.title}} :</td>
             <td>{{title}}</td>
         </tr>
         <tr>
-            <td>{{messages:awarded}} :</td>
+            <td>{{messages.awarded}} :</td>
             <td><a href="{{url}}">{{awarded}}</a></td>
         </tr>
         <tr>
@@ -298,8 +298,8 @@
         </tbody>
     </table>
     <table class="description">
-        {{#technologies}}
         <tbody>
+        {{#technologies}}
         <tr>
             <td>{{#first}}{{messages.technologies}} :{{/first}}</td>
             <td>{{skill}}</td>
@@ -310,8 +310,8 @@
         </tbody>
     </table>
     <table class="description">
-        {{#os}}
         <tbody>
+        {{#os}}
         <tr>
             <td>{{#first}}{{messages.os}} :{{/first}}</td>
             <td>{{skill}}</td>
