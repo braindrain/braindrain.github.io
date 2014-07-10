@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $("#resumeSections").affix({
-        offset: { top: 555}
+        offset: { top: 430}
     });
 });
