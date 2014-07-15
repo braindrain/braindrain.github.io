@@ -1,0 +1,161 @@
+@import url("reset.css");
+
+/*-------------------- MAIN BODY STYLES --------------------*/
+
+@font-face {
+        font-family: 'PT Sans Caption';
+        src: url('../fonts/PTC55F.ttf') format('truetype');
+}
+
+@font-face {
+        font-family: 'Roboto Slab';
+        src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+#container {
+    margin: auto;
+    width: 849pt;
+}
+
+#page {
+    font-family: 'PT Sans Caption', serif;
+    float: none;
+    width: 849pt;
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+}
+
+#photo {
+    height: 200pt;
+    float: right;
+    margin-top: 40pt;
+    margin-right: 50pt;
+}
+
+#info {
+    margin-top: 60pt;
+    text-align: justify;
+    margin-left: 30pt;
+    margin-right: 30pt;
+    font-size: 45pt;
+    font-weight: bold;
+    color: #000000;
+}
+
+#position{
+    font-size: 30pt;
+    font-weight: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+.free_space {
+    height: 20pt;
+    clear: both;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-left: 30pt;
+    font-size: 45pt;
+    color: #000000;
+    margin-bottom: 30pt;
+}
+
+h2 {
+    margin-left: 30pt;
+    font-size: 30pt;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 15pt;
+}
+
+h3 {
+    color: #000000;
+    font-size: 15pt;
+    margin-bottom: 5pt;
+}
+
+/* description table style */
+
+.table_top_border {
+    background-image: url(../../files/images/divider.png);
+    background-repeat: repeat-x;
+    height: 1pt;
+    width: 537pt;
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+    margin-right: 50pt;
+    float: right;
+}
+
+.table_bottom_border {
+    background-image: url(../../files/images/divider.png);
+    background-repeat: repeat-x;
+    height: 1pt;
+    width: 537pt;
+    margin-top: 1pt;
+    margin-bottom: 14pt;
+    margin-right: 50pt;
+    float: right;
+}
+
+table.description {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Slab', serif;
+    line-height: 130%;
+    font-size: 14pt;
+    color: #000000;
+    width: 749pt;
+    border: 0pt;
+}
+
+table.description td {
+    text-align: left;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-right: 15pt;
+    padding-left: 15pt;
+    color: #000000;
+}
+
+table.description tr td:first-child {
+    background-color: #E6E6E6;
+    text-align: right;
+    padding-right: 5pt;
+    width: 180pt;
+   font-weight: bold;
+    vertical-align: text-top;
+}
+
+/* table links style */
+
+table.links td {
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-right: 5pt;
+    padding-left: 5pt;
+    color: #EEEEEE;
+}
