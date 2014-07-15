@@ -1,1 +1,2 @@
-"c:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe" -L 15 -R 10 -T 15 -B 15 --header-line --header-spacing 5 --header-font-size 8 --header-left "Gleb Uvarov" --footer-line --footer-spacing 5 --footer-font-size 8 --footer-right [page] plain.html G.Uvarov_CV.pdf
+set now=%date:~0,2%.%date:~3,2%.%date:~6,4%
+"c:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe" -L 15 -R 10 -T 15 -B 15 --header-line --header-spacing 5 --header-font-size 8 --header-left "Gleb Uvarov" --header-right "%now%" --footer-line --footer-spacing 5 --footer-font-size 8 --footer-right [page] plain.html G.Uvarov_CV.pdf
