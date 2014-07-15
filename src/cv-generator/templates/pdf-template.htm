@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="description" content="Gleb Uvarov. Software Engineer. Team Leader"/>
+    <meta name="author" content="Gleb Uvarov"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link href="../documents/styles/plain.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="container">
+<div id="page">
+
+<div id="photo">
+    <img src="images/Uvarov.png" alt="Gleb Uvarov"/>
+</div>
+<h2 id="info">{{author}}</h2>
+<h2 id="position">{{title1}}, {{title2}}</h2>
+
+<div class="clear"></div>
+<h2>{{messages.personalInformation}}</h2>
+
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.address}} :</td>
+        <td>{{personalInfo.address}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.phone}} :</td>
+        <td>{{personalInfo.phone}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.email}} :</td>
+        <td><a href="mailto:{{personalInfo.email}}">{{personalInfo.email}}</a></td>
+    </tr>
+    <tr>
+        <td>{{messages.skype}} :</td>
+        <td><a href="skype:{{personalInfo.skype}}">{{personalInfo.skype}}</a></td>
+    </tr>
+    <tr>
+        <td>{{messages.birthday}} :</td>
+        <td>{{personalInfo.birthday}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+
+<div class="free_space"></div>
+
+<h2>{{messages.experience}}</h2>
+
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#experience}}
+    <tr>
+        <td>&bull;&nbsp;</td>
+        <td>{{headline}}</td>
+    </tr>
+    {{/experience}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+
+<div class="free_space"></div>
+
+<h2>{{messages.employmentHistory}}</h2>
+{{#employments}}
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.date}} :</td>
+        <td>{{date}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.company}} :</td>
+        <td><a>{{company}}, {{url}}</a></td>
+    </tr>
+    <tr>
+        <td>{{messages.address}} :</td>
+        <td>{{address}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.position}} :</td>
+        <td>{{position}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.responsibilities}} :</td>
+        <td>{{responsibilities}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+{{/employments}}
+
+<div class="free_space"></div>
+
+<h2>{{messages.education}}</h2>
+{{#educations}}
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.date}} :</td>
+        <td>{{date}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.institution}} :</td>
+        <td>{{institution}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.address}} :</td>
+        <td>{{address}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.faculty}} :</td>
+        <td>{{faculty}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.department}} :</td>
+        <td>{{department}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.qualification}} :</td>
+        <td>{{qualification}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+{{/educations}}
+
+<div class="free_space"></div>
+
+<h2>{{messages.knownLanguages}}</h2>
+
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#languages}}
+    <tr>
+        <td>{{language}} :</td>
+        <td>{{experience}}</td>
+    </tr>
+    {{/languages}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+
+<div class="free_space"></div>
+
+<h2>{{messages.coursesNCertificates}}</h2>
+{{#certificates}}
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.title}} :</td>
+        <td>{{title}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.awarded}} :</td>
+        <td><a>{{awarded}}, {{url}}</a></td>
+    </tr>
+    <tr>
+        <td>{{messages.date}} :</td>
+        <td>{{date}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+{{/certificates}}
+
+<div class="free_space"></div>
+
+<h2>{{messages.techSkills}}</h2>
+
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr style="font-weight: bold;">
+        <td style="background-color: transparent"></td>
+        <td>Technology</td>
+        <td style="text-align:center; width:100px">Experience (years)</td>
+        <td style="text-align:center; width:120px">Proficiency</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#prolanguages}}
+    <tr>
+        <td>{{#first}}{{messages.programming}} <br/>
+            {{messages.languages}} :{{/first}}
+        </td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/prolanguages}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#technologies}}
+    <tr>
+        <td>{{#first}}{{messages.technologies}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/technologies}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#os}}
+    <tr>
+        <td>{{#first}}{{messages.os}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/os}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#rdbms}}
+    <tr>
+        <td>{{#first}}{{messages.rdbms}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/rdbms}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#servers}}
+    <tr>
+        <td>{{#first}}{{messages.appServers}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/servers}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#tools}}
+    <tr>
+        <td>{{#first}}{{messages.tools}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/tools}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    {{#ide}}
+    <tr>
+        <td>{{#first}}{{messages.ides}} :{{/first}}</td>
+        <td>{{skill}}</td>
+        <td style="text-align:center; width:100px">{{experience}}</td>
+        <td style="text-align:center; width:120px">{{proficiency}}</td>
+    </tr>
+    {{/ide}}
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+
+<div class="free_space"></div>
+
+<h2>{{messages.techProjects}}</h2>
+{{#projects}}
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.projectName}} :</td>
+        <td>{{name}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.projectDescription}} :</td>
+        <td>{{description}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.position}} :</td>
+        <td>{{position}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.responsibilities}} :</td>
+        <td>{{responsibilities}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.technologies}} :</td>
+        <td>{{technologies}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.os}} :</td>
+        <td>{{os}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.projectDuration}} :</td>
+        <td>{{duration}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+{{/projects}}
+
+<div class="free_space"></div>
+<div class="free_space"></div>
+<div class="free_space"></div>
+
+<h2>{{messages.trainings}}</h2>
+{{#personalTrainings}}
+<div class="table_top_border"></div>
+<table class="description">
+    <tbody>
+    <tr>
+        <td>{{messages.title}} :</td>
+        <td>{{title}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.presentation}} :</td>
+        <td>
+            <a href="{{link}}">{{link}}</a>
+        </td>
+    </tr>
+    <tr>
+        <td>{{messages.presentedAt}} :</td>
+        <td>{{company}}, {{url}}</td>
+    </tr>
+    <tr>
+        <td>{{messages.date}} :</td>
+        <td>{{date}}</td>
+    </tr>
+    </tbody>
+</table>
+<div class="table_bottom_border"></div>
+{{/personalTrainings}}
+</div>
+</div>
+</body>
+</html>
