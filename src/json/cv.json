@@ -92,6 +92,12 @@
     ],
     "certificates": [
         {
+            "title": "Spring 3",
+            "awarded": "XP Injection",
+            "url": "http://xpinjection.com",
+            "date": "Jul 2014"
+        },
+        {
             "title": "Design Patterns in Java",
             "awarded": "XP Injection",
             "url": "http://xpinjection.com",
