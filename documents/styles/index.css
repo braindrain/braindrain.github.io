@@ -35,7 +35,7 @@ body > .container {
     font-size: 40px;
     font-weight: normal;
     width: 263px;
-    padding-right: 10pt;
+    padding-right: 20pt;
     text-align: right;
 }
 
@@ -44,14 +44,11 @@ body > .container {
     font-size: 25px;
     color: #999;
     text-align: right;
-    padding-right: 10pt;
+    padding-right: 20pt;
 }
 
 .title-img {
-    display: block;
-    margin-left: 50pt;
-    margin-right: auto;
-    margin-bottom: 8pt;
+    display: none;
 }
 
 /*.navbar-resume {
@@ -84,10 +81,6 @@ body > .container {
 
 .lang-icon {
     padding-right: 8px;
-}
-
-.img-sidebar {
-    width: 180px;
 }
 
 .first {
@@ -148,14 +141,6 @@ table.description tr td:first-child {
 
 .bs-docs-sidebar.affix {
     position: static;
-}
-
-@media (min-width: 768px) {
-    .bs-docs-sidebar {
-        padding-left: 10pt;
-        width: 263px;
-        display: block;
-    }
 }
 
 .bs-docs-sidenav {
@@ -236,6 +221,22 @@ table.description tr td:first-child {
 }
 
 @media (min-width: 992px) {
+    .title-img {
+        display: block;
+        margin-left: 40pt;
+        margin-right: auto;
+        margin-bottom: 8pt;
+    }
+
+    .img-sidebar {
+        width: 180px;
+    }
+    .bs-docs-sidebar {
+        padding-left: 10pt;
+        width: 263px;
+        display: block;
+    }
+
     .bs-docs-sidebar .nav > .active > ul {
         display: block;
     }
