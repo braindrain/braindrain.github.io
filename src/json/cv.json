@@ -10,7 +10,8 @@
         "phone": "+375 29 11 22 987",
         "email": "g.uvarov@gmail.com",
         "skype": "g.uvarov",
-        "birthday": "Dec 29, 1987"
+        "birthday": "Dec 29, 1987",
+        "marital": "Married"
     },
 
     "experience": [
@@ -438,6 +439,7 @@
         "email": "E-mail",
         "skype": "Skype",
         "birthday": "Date of Birth",
+        "marital": "Marital Status",
         "social": "Social",
         "date": "Date",
         "position": "Position",
