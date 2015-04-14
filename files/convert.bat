@@ -1,2 +1,3 @@
-set now=%date:~0,2%.%date:~3,2%.%date:~6,4%
+for /f "skip=1" %%x in ('wmic os get localdatetime') do if not defined MyDate set MyDate=%%x
+set now=%MyDate:~0,4%-%MyDate:~4,2%-%MyDate:~6,2%
 "c:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe" -L 15 -R 10 -T 15 -B 15 --header-line --header-spacing 5 --header-font-size 8 --header-left "Gleb Uvarov" --header-right "%now%" --footer-line --footer-spacing 5 --footer-font-size 8 --footer-right [page] plain.html G.Uvarov_CV.pdf

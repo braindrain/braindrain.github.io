@@ -2,12 +2,12 @@
     "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, Minsk, Belarus, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Engineer – Systems Analyst, Java, SQl, Bash Script, JavaScript, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
     "author": "Gleb Uvarov",
     "title1": "Software Engineer",
-    "title2": "Team Leader",
+    "title2": "",
     "years": "2015",
 
     "personalInfo": {
-        "address": "Minsk, Belarus",
-        "phone": "+375 29 11 22 987",
+        "address": "Delft, The Netherlands",
+        "phone": "+31 6 160 632 41",
         "email": "g.uvarov@gmail.com",
         "skype": "g.uvarov",
         "birthday": "Dec 29, 1987",
@@ -30,8 +30,24 @@
     ],
 
     "employments": [
+         {
+            "date": "Dec 2014 - Present",
+            "company": "European Patent Office",
+            "url": "http://www.epo.org",
+            "address": "Rijswijk, The Netherlands",
+            "position": "Contractor",
+            "responsibilities": "Software maintenance, design and development"
+        },
         {
-            "date": "Nov 2013 - Present",
+            "date": "Dec 2014 - Present",
+            "company": "SaM Solutions GmbH",
+            "url": "http://www.sam-solutions.com",
+            "address": "Rijswijk, The Netherlands",
+            "position": "Software Engineer",
+            "responsibilities": "Software maintenance, design and development"
+        },
+        {
+            "date": "Nov 2013 - Dec 2014",
             "company": "SaM Solutions Belarus",
             "url": "http://www.sam-solutions.com",
             "address": "Minsk, Belarus",
@@ -386,7 +402,7 @@
             "responsibilities": "Implementation the SNMP protocol, user authentication mechanism, SSL certificates verification, performance tuning, communication with customers, requirements analysis, team management, documentation",
             "technologies": "Java, Spring, Hibernate, Flex, H2database, SBLIM CIM Client, SNMP4j, SOAP, JUnit, Maven",
             "os": "Windows 2008/2012",
-            "duration": "Jan 2013 - Present"
+            "duration": "Jan 2013 - Dec 2014"
         },
         {
             "name": "SPM",
@@ -404,7 +420,7 @@
             "responsibilities": "Support of IPMI protocol, encryption algorithms (HMAC-SHA1, HMAC-SHA1-96, AES-CBC-128), SSH performance improvements, build system improvements, bugfixing, communication with customers, requirements analysis, team management, documentation",
             "technologies": "Java, Swing, Hibernate, MS SQL, PostgreSQL, IPMI, Ganymed SSH, Maverick SSH, Quartz, Apache Ant, JUnit, Mockito, PowerMock",
             "os": "Windows 2003/2008, SLES 10/11, RHEL 5/6",
-            "duration": "Sep 2010 - Present"
+            "duration": "Sep 2010 - Dec 2014"
         },
         {
             "name": "LCD_bTV",
