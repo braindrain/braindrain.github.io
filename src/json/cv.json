@@ -1,12 +1,12 @@
 {
     "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, Minsk, Belarus, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Engineer – Systems Analyst, Java, SQl, Bash Script, JavaScript, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
     "author": "Gleb Uvarov",
-    "title1": "Software Engineer",
+    "title1": "Java Developer",
     "title2": "",
-    "years": "2015",
+    "years": "2016",
 
     "personalInfo": {
-        "address": "Delft, The Netherlands",
+        "address": "The Hague, The Netherlands",
         "phone": "+31 6 160 632 41",
         "email": "g.uvarov@gmail.com",
         "skype": "g.uvarov",
@@ -109,6 +109,12 @@
     ],
     "certificates": [
         {
+            "title": "M101J: MongoDB for Java Developers",
+            "awarded": "MongoDB University",
+            "url": "files/certificates/M101J.pdf",
+            "date": "May 2016"
+        },
+		{
             "title": "Spring 3",
             "awarded": "XP Injection",
             "url": "http://xpinjection.com",
@@ -139,16 +145,16 @@
             "date": "Aug 2013"
         },
         {
+            "title": "Computer Networks",
+            "awarded": "University of Washington, Coursera",
+            "url": "files/certificates/Coursera_comnetworks.pdf",
+            "date": "Apr 2013"
+        },
+		{
             "title": "Agile Engineering Practices",
             "awarded": "XP Injection",
             "url": "http://xpinjection.com",
             "date": "Feb 2013"
-        },
-        {
-            "title": "Computer Networks",
-            "awarded": "University of Washington, Coursera",
-            "url": "https://www.coursera.org/course/comnetworks",
-            "date": "Jan 2013"
         },
         {
             "title": "TDD in Java",
@@ -159,8 +165,8 @@
         {
             "title": "Human-Computer Interaction",
             "awarded": "Stanford University, Coursera",
-            "url": "http://online.stanford.edu/course/hci",
-            "date": "Sep 2012"
+            "url": "files/certificates/Coursera_hci.pdf",
+            "date": "Dec 2012"
         },
         {
             "title": "Project Management Basics",
@@ -214,16 +220,6 @@
             "skill": "JavaScript",
             "experience": "1",
             "proficiency": "Basic"
-        },
-        {
-            "skill": "C#",
-            "experience": "1",
-            "proficiency": "Basic"
-        },
-        {
-            "skill": "PHP",
-            "experience": "1",
-            "proficiency": "Basic"
         }
     ],
     "technologies": [
@@ -264,7 +260,7 @@
             "proficiency": "Good"
         },
         {
-            "skill": "JUnit, Mockito, Powermock",
+            "skill": "JUnit, JMockit, Mockito",
             "experience": "2",
             "proficiency": "Good"
         },
@@ -272,11 +268,6 @@
             "skill": "SOAP, REST",
             "experience": "3",
             "proficiency": "Good"
-        },
-        {
-            "skill": ".NET",
-            "experience": "1",
-            "proficiency": "Basic"
         }
     ],
     "os": [
@@ -331,11 +322,6 @@
             "skill": "Jetty",
             "experience": "1",
             "proficiency": "Good"
-        },
-        {
-            "skill": "IIS",
-            "experience": "1",
-            "proficiency": "Basic"
         }
     ],
     "tools": [
@@ -347,7 +333,7 @@
         },
         {
             "skill": "Git",
-            "experience": "2",
+            "experience": "3",
             "proficiency": "Excellent"
         },
         {
@@ -387,11 +373,6 @@
             "skill": "NetBeans",
             "experience": "1",
             "proficiency": "Good"
-        },
-        {
-            "skill": "MS Visual Studio",
-            "experience": "1",
-            "proficiency": "Good"
         }
     ],
     "projects": [
@@ -421,15 +402,6 @@
             "technologies": "Java, Swing, Hibernate, MS SQL, PostgreSQL, IPMI, Ganymed SSH, Maverick SSH, Quartz, Apache Ant, JUnit, Mockito, PowerMock",
             "os": "Windows 2003/2008, SLES 10/11, RHEL 5/6",
             "duration": "Sep 2010 - Dec 2014"
-        },
-        {
-            "name": "LCD_bTV",
-            "description": "The goal of project is improving team collaboration. It represents number of gadgets displaying information about project and build statuses, monitoring of web resources, custom messages, webcam gadget. Gadgets are displayed on 42-inch monitors located in different parts of the office, so every team member can track essential information.",
-            "position": "Software Engineer",
-            "responsibilities": "Developing the domain model, integration with Microsoft TFS",
-            "technologies": "C#, .NET, Microsoft Silverlight, Microsoft Team Foundation Server, Microsoft Sharepoint",
-            "os": "Windows 2003/2008",
-            "duration": "Sep 2009 - Aug 2010"
         }
     ],
     "personalTrainings": [
