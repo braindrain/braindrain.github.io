@@ -5,7 +5,7 @@
   "title2": "",
   "years": "2016",
   "personalInfo": {
-    "address": "The Hague, The Netherlands",
+    "address": "The Hague, Netherlands",
     "phone": "+31 6 160 632 41",
     "email": "g.uvarov@gmail.com",
     "skype": "g.uvarov",
@@ -14,13 +14,13 @@
   },
   "experience": [
     {
-      "headline": "7+ years of experience in Design and Development using Java technologies"
+      "headline": "7 years of experience in Design and Development using Java technologies"
     },
     {
-      "headline": "Back-end Java applications: N-tier, RESTful Web Services, Search Engines, Microservices, Multithreading, JVM performance"
+      "headline": "N-tier architectures, RESTful Web Services, Search Engines, Microservices, Multithreading, JVM performance"
     },
     {
-      "headline": "Team management, requirements analysis, training employees"
+      "headline": "Team management, Requirements analysis, Training employees"
     }
   ],
   "employments": [
@@ -46,7 +46,7 @@
       "url": "http://www.sam-solutions.com",
       "address": "Minsk, Belarus",
       "position": "Senior Software Engineer, Team Leader",
-      "responsibilities": "Application design and development, team management, training employees, communication with customers, requirements analysis, documentation"
+      "responsibilities": "Software design and development, team management, training employees, communication with customers, requirements analysis, documentation"
     },
     {
       "date": "Sep 2012 - Oct 2013",
@@ -54,7 +54,7 @@
       "url": "http://www.sam-solutions.com",
       "address": "Minsk, Belarus",
       "position": "Senior Software Engineer",
-      "responsibilities": "Application design and development, communication with customers, documentation"
+      "responsibilities": "Software design and development, communication with customers, documentation"
     },
     {
       "date": "Sep 2010 - Aug 2012",
@@ -62,7 +62,7 @@
       "url": "http://www.sam-solutions.com",
       "address": "Minsk, Belarus",
       "position": "Software Engineer",
-      "responsibilities": "Application design and development, communication with customers"
+      "responsibilities": "Software design and development, communication with customers"
     },
     {
       "date": "Sep 2009 - Aug 2010",
@@ -70,7 +70,7 @@
       "url": "http://www.sam-solutions.com",
       "address": "Minsk, Belarus",
       "position": "Junior Software Engineer",
-      "responsibilities": "Application design and development"
+      "responsibilities": "Software design and development"
     }
   ],
   "educations": [
