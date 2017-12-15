@@ -40,32 +40,6 @@
 
 <!-- Container -->
 <div class="container">
-<!-- Static NavBar -->
-<!--<div class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-resume" href="#">Download Resume</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right navbar-lang">
-                <li class="active lang-icon"><img src="files/images/icons/gb.png" alt="EN"></li>
-                <li class="active lang-icon"><img src="files/images/icons/de.png" alt="DE"></li>
-                <li class="active"><img src="files/images/icons/ru.png" alt="RU"></li>
-            </ul>
-        </div>
-    </div>
-</div>-->
-<!-- /Static NavBar -->
-
-<div class="row">
-    <a class="navbar-resume" href="files/G.Uvarov_CV.pdf" >PDF Version</a>
-</div>
 <!-- Title -->
 <div class="row">
     <div class="col-md-3">
@@ -75,6 +49,23 @@
         <div class="row">
             <p class="lead title-status">{{title1}}</p>
         </div>
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="img-badge-wrapper">
+                <a href="https://www.youracclaim.com/badges/27a08d7c-3d79-4648-9840-a69b24d315a0/public_url">
+                    <img class="img-badge" src="files/images/oracle-certified-associate-java-se-8-programmer.png"
+                         alt="OCJA8">
+                </a>
+                <a href="https://www.youracclaim.com/badges/d00f98b0-6a1e-49a6-bb8b-c0d67ef81496/public_url">
+                    <img class="img-badge" src="files/images/oracle-certified-professional-java-se-8-programmer.png"
+                         alt="OCJP8">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1">
+        <a class="navbar-resume" href="files/G.Uvarov_CV.pdf">PDF Version</a>
     </div>
 </div>
 <!-- /Title -->
@@ -115,9 +106,6 @@
                 <li>
                     <a href="#projects">{{messages.techProjects}}</a>
                 </li>
-                <li>
-                    <a href="#trainings">{{messages.trainings}}</a>
-                </li>
             </ul>
             <a href="#top" class="back-to-top">{{messages.backToTop}}</a>
         </div>
@@ -136,10 +124,6 @@
             <td>{{personalInfo.address}}</td>
         </tr>
         <tr>
-            <td>{{messages.phone}}</td>
-            <td>{{personalInfo.phone}}</td>
-        </tr>
-        <tr>
             <td>{{messages.email}}</td>
             <td><a href="mailto:{{personalInfo.email}}">{{personalInfo.email}}</a></td>
         </tr>
@@ -148,23 +132,12 @@
             <td><a href="skype:{{personalInfo.skype}}">{{personalInfo.skype}}</a></td>
         </tr>
         <tr>
-            <td>{{messages.birthday}}</td>
-            <td>{{personalInfo.birthday}}</td>
-        </tr>
-        <tr>
-            <td>{{messages.marital}}</td>
-            <td>{{personalInfo.marital}}</td>
-        </tr>
-        <tr>
             <td>{{messages.social}}</td>
             <td>
                 <a href="http://www.linkedin.com/in/glebuvarov">
                     <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png"
                          width="80" height="15" border="0" alt="View Gleb Uvarov's profile on LinkedIn">
                 </a>
-                <a href="http://www.xing.com/profile/Gleb_Uvarov" target="_blank" rel="me"><img
-                        src="http://www.xing.com/img/buttons/14_en_btn.gif" width="80" height="15"
-                        alt="Gleb Uvarov"></a>
             </td>
         </tr>
         </tbody>
@@ -270,11 +243,11 @@
         <tbody>
         <tr>
             <td>{{messages.title}}</td>
-            <td>{{title}}</td>
+            <td><a href="{{url}}">{{title}}</a></td>
         </tr>
         <tr>
             <td>{{messages.awarded}}</td>
-            <td><a href="{{url}}">{{awarded}}</a></td>
+            <td>{{awarded}}</td>
         </tr>
         <tr>
             <td>{{messages.date}}</td>
@@ -422,34 +395,6 @@
         </tbody>
     </table>
     {{/projects}}
-</section>
-
-<section class="block" id="trainings">
-    <h2>{{messages.trainings}}</h2>
-    {{#personalTrainings}}
-    <table class="description">
-        <tbody>
-        <tr>
-            <td>{{messages.title}}</td>
-            <td>{{title}}</td>
-        </tr>
-        <tr>
-            <td>{{messages.presentation}}</td>
-            <td>
-                <a href="{{link}}">{{link}}</a>
-            </td>
-        </tr>
-        <tr>
-            <td>{{messages.presentedAt}}</td>
-            <td>{{company}}, {{url}}</td>
-        </tr>
-        <tr>
-            <td>{{messages.date}}</td>
-            <td>{{date}}</td>
-        </tr>
-        </tbody>
-    </table>
-    {{/personalTrainings}}
 </section>
 </div>
 <!-- /Main -->

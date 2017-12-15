@@ -16,7 +16,14 @@
 </div>
 <h2 id="info">{{author}}</h2>
 <h2 id="position">{{title1}}</h2>
-
+    <h2>
+    <div class="img-badge-wrapper">
+            <img class="img-badge" src="images/oracle-certified-associate-java-se-8-programmer.png"
+                 alt="OCJA8" width="96px" height="96px">
+            <img class="img-badge" src="images/oracle-certified-professional-java-se-8-programmer.png"
+                 alt="OCJP8"  width="96px" height="96px">
+    </div>
+    </h2>
 <div class="clear"></div>
 <h2>{{messages.personalInformation}}</h2>
 
@@ -28,24 +35,12 @@
         <td>{{personalInfo.address}}</td>
     </tr>
     <tr>
-        <td>{{messages.phone}} :</td>
-        <td>{{personalInfo.phone}}</td>
-    </tr>
-    <tr>
         <td>{{messages.email}} :</td>
         <td><a href="mailto:{{personalInfo.email}}">{{personalInfo.email}}</a></td>
     </tr>
     <tr>
         <td>{{messages.skype}} :</td>
         <td><a href="skype:{{personalInfo.skype}}">{{personalInfo.skype}}</a></td>
-    </tr>
-    <tr>
-        <td>{{messages.birthday}} :</td>
-        <td>{{personalInfo.birthday}}</td>
-    </tr>
-    <tr>
-        <td>{{messages.marital}} :</td>
-        <td>{{personalInfo.marital}}</td>
     </tr>
     </tbody>
 </table>
@@ -333,38 +328,6 @@
 </table>
 <div class="table_bottom_border"></div>
 {{/projects}}
-
-<div class="free_space"></div>
-<div class="free_space"></div>
-<div class="free_space"></div>
-
-<h2>{{messages.trainings}}</h2>
-{{#personalTrainings}}
-<div class="table_top_border"></div>
-<table class="description">
-    <tbody>
-    <tr>
-        <td>{{messages.title}} :</td>
-        <td>{{title}}</td>
-    </tr>
-    <tr>
-        <td>{{messages.presentation}} :</td>
-        <td>
-            <a href="{{link}}">{{link}}</a>
-        </td>
-    </tr>
-    <tr>
-        <td>{{messages.presentedAt}} :</td>
-        <td>{{company}}, {{url}}</td>
-    </tr>
-    <tr>
-        <td>{{messages.date}} :</td>
-        <td>{{date}}</td>
-    </tr>
-    </tbody>
-</table>
-<div class="table_bottom_border"></div>
-{{/personalTrainings}}
 </div>
 </div>
 </body>

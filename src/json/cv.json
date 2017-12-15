@@ -3,24 +3,21 @@
   "author": "Gleb Uvarov",
   "title1": "Software Engineer",
   "title2": "",
-  "years": "2016",
+  "years": "2017",
   "personalInfo": {
     "address": "The Hague, Netherlands",
-    "phone": "+31 6 160 632 41",
     "email": "g.uvarov@gmail.com",
-    "skype": "g.uvarov",
-    "birthday": "Dec 29, 1987",
-    "marital": "Married"
+    "skype": "g.uvarov"
   },
   "experience": [
     {
-      "headline": "7 years of experience in Design and Development using Java technologies"
+      "headline": "8 years of experience in Design and Development using Java"
     },
     {
-      "headline": "N-tier architectures, RESTful Web Services, Search Engines, Microservices, Multithreading, JVM performance"
+      "headline": "N-tier architectures, REST, Microservices, Multithreading, JVM performance"
     },
     {
-      "headline": "Team management, Requirements analysis, Training employees"
+      "headline": "ElasticSearch, Solr, Lucene, ANTLR4"
     }
   ],
   "employments": [
@@ -102,95 +99,29 @@
     }
   ],
   "certificates": [
-    {
+     {
+      "title": "Oracle Certified Professional, Java SE 8 Programmer",
+      "awarded": "Oracle",
+      "url": "files/certificates/eCertificate-1ZO-809.pdf",
+      "date": "December 2017"
+    },
+	{
+      "title": "Oracle Certified Associate, Java SE 8 Programmer",
+      "awarded": "Oracle",
+      "url": "files/certificates/eCertificate-1Z0-808.pdf",
+      "date": "June 2017"
+    },
+	{
       "title": "M101J: MongoDB for Java Developers",
       "awarded": "MongoDB University",
       "url": "files/certificates/M101J.pdf",
       "date": "May 2016"
     },
     {
-      "title": "Spring 3",
-      "awarded": "XP Injection",
-      "url": "http://xpinjection.com",
-      "date": "Jul 2014"
-    },
-    {
-      "title": "Design Patterns in Java",
-      "awarded": "XP Injection",
-      "url": "http://xpinjection.com",
-      "date": "Feb 2014"
-    },
-    {
       "title": "Goethe-Zertifikat A1: Start Deutsch 1",
       "awarded": "Goethe-Institut Minsk",
       "url": "http://www.goethe.de",
       "date": "Jan 2014"
-    },
-    {
-      "title": "Planning and Estimation in Agile Project",
-      "awarded": "XP Injection",
-      "url": "http://xpinjection.com",
-      "date": "Aug 2013"
-    },
-    {
-      "title": "Kanban for Project Management",
-      "awarded": "XP Injection",
-      "url": "http://xpinjection.com",
-      "date": "Aug 2013"
-    },
-    {
-      "title": "Computer Networks",
-      "awarded": "University of Washington, Coursera",
-      "url": "files/certificates/Coursera_comnetworks.pdf",
-      "date": "Apr 2013"
-    },
-    {
-      "title": "Agile Engineering Practices",
-      "awarded": "XP Injection",
-      "url": "http://xpinjection.com",
-      "date": "Feb 2013"
-    },
-    {
-      "title": "TDD in Java",
-      "awarded": "Pragmatists",
-      "url": "http://www.pragmatists.pl",
-      "date": "Dec 2012"
-    },
-    {
-      "title": "Human-Computer Interaction",
-      "awarded": "Stanford University, Coursera",
-      "url": "files/certificates/Coursera_hci.pdf",
-      "date": "Dec 2012"
-    },
-    {
-      "title": "Project Management Basics",
-      "awarded": "Project Office",
-      "url": "http://www.pmoffice.by",
-      "date": "Sep 2012"
-    },
-    {
-      "title": "Usability Basics",
-      "awarded": "Analyst.by",
-      "url": "http://analyst.by",
-      "date": "Sep 2012"
-    },
-    {
-      "title": "Business Analysis Basics",
-      "awarded": "Analyst.by",
-      "url": "http://analyst.by",
-      "date": "Mar 2012"
-    },
-    {
-      "title": "Industrial software design with Java",
-      "awarded": "Epam Systems",
-      "url": "http://www.epam.com",
-      "date": "Sep 2008"
-    },
-    {
-      "title": "Basics of Software Testing",
-      "awarded": "ITransition",
-      "url": "http://www.itransition.com",
-      "date": "Jan 2008"
     }
   ],
   "prolanguages": [
@@ -229,9 +160,9 @@
       "proficiency": "Excellent"
     },
     {
-      "skill": "ElasticSearch, Apache Lucene",
-      "experience": "2",
-      "proficiency": "Good"
+      "skill": "ANTLR, Parboiled",
+      "experience": "3",
+      "proficiency": "Excellent"
     },
     {
       "skill": "Java Servlets, JSP",
@@ -242,6 +173,11 @@
       "skill": "J2EE",
       "experience": "5",
       "proficiency": "Excellent"
+    },
+    {
+      "skill": "Lucene",
+      "experience": "3",
+      "proficiency": "Good"
     },
     {
       "skill": "Android SDK",
@@ -279,13 +215,18 @@
   ],
   "rdbms": [
     {
-      "skill": "MS SQL",
-      "experience": "3",
+      "skill": "MongoDB",
+      "experience": "1",
       "proficiency": "Good",
       "first": "true"
     },
     {
       "skill": "PostgreSQL",
+      "experience": "3",
+      "proficiency": "Good"
+    },
+    {
+      "skill": "MS SQL",
       "experience": "3",
       "proficiency": "Good"
     },
@@ -349,19 +290,9 @@
   "ide": [
     {
       "skill": "IntelliJ IDEA",
-      "experience": "5",
+      "experience": "7",
       "proficiency": "Excellent",
       "first": "true"
-    },
-    {
-      "skill": "Eclipse",
-      "experience": "3",
-      "proficiency": "Good"
-    },
-    {
-      "skill": "NetBeans",
-      "experience": "1",
-      "proficiency": "Good"
     }
   ],
   "projects": [
@@ -393,22 +324,6 @@
       "duration": "Sep 2010 - Dec 2014"
     }
   ],
-  "personalTrainings": [
-    {
-      "title": "User Experience Design",
-      "link": "http://www.slideshare.net/guvarov/1-29070080",
-      "company": "SaM Solutions Belarus",
-      "url": "http://www.sam-solutions.com",
-      "date": "Jan 2013"
-    },
-    {
-      "title": "Human Centered Design",
-      "link": "http://www.slideshare.net/guvarov/human-centered-design-29070116",
-      "company": "SaM Solutions Belarus",
-      "url": "http://www.sam-solutions.com",
-      "date": "Feb 2013"
-    }
-  ],
   "messages": {
     "address": "Address",
     "phone": "Phone",
@@ -434,7 +349,7 @@
     "languages": "Languages",
     "technologies": "Technologies",
     "os": "Operating Systems",
-    "rdbms": "RDBMSs",
+    "rdbms": "DBMSs",
     "appServers": "Application Servers",
     "tools": "CASE & Project Tools",
     "ides": "IDEs",

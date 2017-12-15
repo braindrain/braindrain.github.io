@@ -35,7 +35,7 @@ body > .container {
     font-size: 40px;
     font-weight: normal;
     width: 263px;
-    padding-right: 20pt;
+    padding-right: 15pt;
     text-align: right;
 }
 
@@ -61,16 +61,6 @@ body > .container {
     display: block;
     margin-top: 10px;
 }*/
-
-.navbar-resume {
-    float:right;
-    text-decoration:underline;
-    font-size: 12pt;
-    background: url('../../files/images/icons/pdf.png') no-repeat;
-    padding: 10px 15px 15px 40px;
-    white-space: nowrap;
-    margin-right: auto;
-}
 
 
 .navbar-lang {
@@ -221,16 +211,6 @@ table.description tr td:first-child {
 }
 
 @media (min-width: 992px) {
-    .title-img {
-        display: block;
-        margin-left: 40pt;
-        margin-right: auto;
-        margin-bottom: 8pt;
-    }
-
-    .img-sidebar {
-        width: 180px;
-    }
     .bs-docs-sidebar {
         padding-left: 10pt;
         width: 263px;
@@ -258,6 +238,41 @@ table.description tr td:first-child {
         margin-bottom: 0;
         margin-top: 0;
     }
+
+    .title-img {
+        display: block;
+        margin-left: 40pt;
+        margin-right: auto;
+        margin-bottom: 8pt;
+    }
+
+    .img-sidebar {
+        width: 180px;
+    }
+
+    .navbar-resume {
+        float:right;
+        text-decoration:underline;
+        font-size: 12pt;
+        background: url('../../files/images/icons/pdf.png') no-repeat;
+        padding: 10px 15px 15px 40px;
+        white-space: nowrap;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+
+    .img-badge-wrapper{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .img-badge {
+        float:left;
+        width: 64px;
+        height: 64px;
+        display: block !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -271,3 +286,8 @@ table.description tr td:first-child {
         display: none !important;
     }
 }
+
+.img-badge {
+    display: none;
+}
+
