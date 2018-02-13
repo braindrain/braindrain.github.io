@@ -1,9 +1,9 @@
 {
-  "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, Minsk, Belarus, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Engineer – Systems Analyst, Java, SQl, Bash Script, JavaScript, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
+  "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Java, ElasticSearch, Lucene, ANTLR, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
   "author": "Gleb Uvarov",
   "title1": "Software Engineer",
   "title2": "",
-  "years": "2017",
+  "years": "2018",
   "personalInfo": {
     "address": "The Hague, Netherlands",
     "email": "g.uvarov@gmail.com",
@@ -25,7 +25,7 @@
       "date": "Dec 2014 - Present",
       "company": "European Patent Office",
       "url": "http://www.epo.org",
-      "address": "Rijswijk, The Netherlands",
+      "address": "Rijswijk, Netherlands",
       "position": "Contractor",
       "responsibilities": "Software maintenance, design and development"
     },
@@ -33,7 +33,7 @@
       "date": "Dec 2014 - Present",
       "company": "SaM Solutions GmbH",
       "url": "http://www.sam-solutions.com",
-      "address": "Rijswijk, The Netherlands",
+      "address": "Rijswijk, Netherlands",
       "position": "Software Engineer",
       "responsibilities": "Software maintenance, design and development"
     },
@@ -179,6 +179,11 @@
       "experience": "3",
       "proficiency": "Good"
     },
+	{
+      "skill": "ElasticSearch",
+      "experience": "3",
+      "proficiency": "Good"
+    },
     {
       "skill": "Android SDK",
       "experience": "2",
@@ -296,7 +301,16 @@
     }
   ],
   "projects": [
-    {
+     {
+      "name": "Ansera",
+      "description": "Ansera is a search engine for patent information. The goal is to deliver highly relevant documents before the examiner starts working on a patent application. It provides search with plain text (find similar), custom domain-specific query language, and search for similar figures.",
+      "position": "Senior Software Engineer",
+      "responsibilities": "DSL grammar implementation, AST to Lucene translation, Custom search queries",
+      "technologies": "Java, ElasticSearch, Lucene, ANTLR, Spring, Hibernate, JUnit, Maven",
+      "os": "SLES 12",
+      "duration": "Dec 2014 - "
+    },
+	{
       "name": "Event Service",
       "description": "Event Service is an extension to VMWare vCenter which uses polling-based approach to handle servers monitoring events through CIM and SNMP indications. Through Event Service extension VMWare Infrastructure (e.g. vSphere Web Client plugins) can operate vendor-specific information.",
       "position": "Senior Software Engineer, Team Leader",
