@@ -3,7 +3,7 @@
   "author": "Gleb Uvarov",
   "title1": "Software Engineer",
   "title2": "",
-  "years": "2018",
+  "years": "2019",
   "personalInfo": {
     "address": "The Hague, Netherlands",
     "email": "g.uvarov@gmail.com",
@@ -11,7 +11,7 @@
   },
   "experience": [
     {
-      "headline": "8 years of experience in Design and Development using Java"
+      "headline": "9 years of experience in Design and Development using Java"
     },
     {
       "headline": "N-tier architectures, REST, Microservices, Multithreading, JVM performance"
@@ -127,7 +127,7 @@
   "prolanguages": [
     {
       "skill": "Java",
-      "experience": "8",
+      "experience": "9",
       "proficiency": "Excellent",
       "first": "true"
     },
@@ -145,43 +145,43 @@
   "technologies": [
     {
       "skill": "J2SE",
-      "experience": "7",
+      "experience": "8",
       "proficiency": "Excellent",
       "first": "true"
     },
     {
       "skill": "Hibernate",
-      "experience": "4",
+      "experience": "5",
       "proficiency": "Excellent"
     },
     {
       "skill": "Spring Framework",
-      "experience": "4",
+      "experience": "5",
       "proficiency": "Excellent"
     },
     {
       "skill": "ANTLR, Parboiled",
-      "experience": "3",
+      "experience": "4",
       "proficiency": "Excellent"
     },
     {
       "skill": "Java Servlets, JSP",
-      "experience": "5",
+      "experience": "6",
       "proficiency": "Excellent"
     },
     {
       "skill": "J2EE",
-      "experience": "5",
+      "experience": "6",
       "proficiency": "Excellent"
     },
     {
       "skill": "Lucene",
-      "experience": "3",
+      "experience": "4",
       "proficiency": "Good"
     },
 	{
       "skill": "ElasticSearch",
-      "experience": "3",
+      "experience": "4",
       "proficiency": "Good"
     },
     {
@@ -203,13 +203,13 @@
   "os": [
     {
       "skill": "MS Windows",
-      "experience": "8",
+      "experience": "9",
       "proficiency": "Excellent",
       "first": "true"
     },
     {
       "skill": "Linux",
-      "experience": "4",
+      "experience": "5",
       "proficiency": "Excellent"
     },
     {
@@ -268,7 +268,7 @@
     },
     {
       "skill": "Git",
-      "experience": "5",
+      "experience": "6",
       "proficiency": "Excellent"
     },
     {
@@ -283,19 +283,19 @@
     },
     {
       "skill": "Hudson/Jenkins",
-      "experience": "3",
+      "experience": "4",
       "proficiency": "Good"
     },
     {
       "skill": "Atlassian JIRA",
-      "experience": "4",
+      "experience": "5",
       "proficiency": "Good"
     }
   ],
   "ide": [
     {
       "skill": "IntelliJ IDEA",
-      "experience": "7",
+      "experience": "8",
       "proficiency": "Excellent",
       "first": "true"
     }
