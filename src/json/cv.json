@@ -3,7 +3,7 @@
   "author": "Gleb Uvarov",
   "title1": "Software Engineer",
   "title2": "",
-  "years": "2019",
+  "years": "2020",
   "personalInfo": {
     "address": "The Hague, Netherlands",
     "email": "g.uvarov@gmail.com",
@@ -11,13 +11,13 @@
   },
   "experience": [
     {
-      "headline": "9 years of experience in Design and Development using Java"
+      "headline": "10 years of experience in Design and Development using Java"
     },
     {
-      "headline": "N-tier architectures, REST, Microservices, Multithreading, JVM performance"
+      "headline": "Cloud-Native Applications, Reactive Applications, Microservices, Search Engines"
     },
     {
-      "headline": "ElasticSearch, Solr, Lucene, ANTLR4"
+      "headline": "Java, Spring Boot, ElasticSearch, Linux/Unix, Kubernetes"
     }
   ],
   "employments": [
@@ -26,16 +26,8 @@
       "company": "European Patent Office",
       "url": "http://www.epo.org",
       "address": "Rijswijk, Netherlands",
-      "position": "Contractor",
-      "responsibilities": "Software maintenance, design and development"
-    },
-    {
-      "date": "Dec 2014 - Present",
-      "company": "SaM Solutions GmbH",
-      "url": "http://www.sam-solutions.com",
-      "address": "Rijswijk, Netherlands",
-      "position": "Software Engineer",
-      "responsibilities": "Software maintenance, design and development"
+      "position": "Senior Software Engineer/Service Contractor",
+      "responsibilities": "Software design & development"
     },
     {
       "date": "Nov 2013 - Dec 2014",
@@ -83,23 +75,25 @@
   "languages": [
     {
       "language": "English",
-      "experience": "Upper-Intermediate"
+      "experience": "B2"
     },
     {
-      "language": "German",
-      "experience": "Basic, Goethe-Zertifikat A1: Start Deutsch 1"
+      "language": "Dutch",
+      "experience": "A2"
     },
     {
       "language": "Russian",
-      "experience": "Mother Tongue"
-    },
-    {
-      "language": "Belarusian",
       "experience": "Mother Tongue"
     }
   ],
   "certificates": [
      {
+      "title": "LFS158x: Introduction to Kubernetes",
+      "awarded": "edX",
+      "url": "https://courses.edx.org/certificates/1ee204a3630749c695da376a58ed6cd8",
+      "date": "January 2019"
+     },
+	 {
       "title": "Oracle Certified Professional, Java SE 8 Programmer",
       "awarded": "Oracle",
       "url": "files/certificates/eCertificate-1ZO-809.pdf",
@@ -116,67 +110,36 @@
       "awarded": "MongoDB University",
       "url": "files/certificates/M101J.pdf",
       "date": "May 2016"
-    },
-    {
-      "title": "Goethe-Zertifikat A1: Start Deutsch 1",
-      "awarded": "Goethe-Institut Minsk",
-      "url": "http://www.goethe.de",
-      "date": "Jan 2014"
     }
   ],
   "prolanguages": [
     {
-      "skill": "Java",
-      "experience": "9",
+      "skill": "Java 9+",
+      "experience": "10",
       "proficiency": "Excellent",
       "first": "true"
     },
-    {
-      "skill": "SQL",
-      "experience": "4",
-      "proficiency": "Excellent"
+	{
+      "skill": "Kotlin",
+      "experience": "1",
+      "proficiency": "Good"
     },
     {
       "skill": "Bash Script",
-      "experience": "3",
-      "proficiency": "Good"
+      "experience": "5",
+      "proficiency": "Excellent"
     }
   ],
   "technologies": [
     {
-      "skill": "J2SE",
-      "experience": "8",
+      "skill": "Spring Framework/Spring Boot",
+      "experience": "5",
       "proficiency": "Excellent",
-      "first": "true"
+	  "first": "true"
     },
-    {
-      "skill": "Hibernate",
-      "experience": "5",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "Spring Framework",
-      "experience": "5",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "ANTLR, Parboiled",
-      "experience": "4",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "Java Servlets, JSP",
-      "experience": "6",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "J2EE",
-      "experience": "6",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "Lucene",
-      "experience": "4",
+	{
+      "skill": "Kubernetes/Docker",
+      "experience": "1",
       "proficiency": "Good"
     },
 	{
@@ -184,19 +147,24 @@
       "experience": "4",
       "proficiency": "Good"
     },
+	{
+      "skill": "Lucene",
+      "experience": "4",
+      "proficiency": "Good"
+    },
+	{
+      "skill": "Hibernate",
+      "experience": "5",
+      "proficiency": "Excellent"
+    },
+    {
+      "skill": "ANTLR, Parboiled",
+      "experience": "4",
+      "proficiency": "Excellent"
+    }, 
     {
       "skill": "Android SDK",
       "experience": "2",
-      "proficiency": "Good"
-    },
-    {
-      "skill": "JUnit, JMockit, Mockito",
-      "experience": "3",
-      "proficiency": "Good"
-    },
-    {
-      "skill": "SOAP, REST",
-      "experience": "4",
       "proficiency": "Good"
     }
   ],
@@ -209,7 +177,7 @@
     },
     {
       "skill": "Linux",
-      "experience": "5",
+      "experience": "6",
       "proficiency": "Excellent"
     },
     {
@@ -221,7 +189,7 @@
   "rdbms": [
     {
       "skill": "MongoDB",
-      "experience": "1",
+      "experience": "2",
       "proficiency": "Good",
       "first": "true"
     },
@@ -306,7 +274,7 @@
       "description": "Ansera is a search engine for patent information. The goal is to deliver highly relevant documents before the examiner starts working on a patent application. It provides search with plain text (find similar), custom domain-specific query language, and search for similar figures.",
       "position": "Senior Software Engineer",
       "responsibilities": "DSL grammar implementation, AST to Lucene translation, Custom search queries",
-      "technologies": "Java, ElasticSearch, Lucene, ANTLR, Spring, Hibernate, JUnit, Maven",
+      "technologies": "Java 8, Kubernetes, ElasticSearch, Lucene, ANTLR, Spring, Hibernate, JUnit, Maven",
       "os": "SLES 12",
       "duration": "Dec 2014 - "
     },
