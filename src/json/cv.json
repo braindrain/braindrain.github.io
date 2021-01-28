@@ -3,7 +3,7 @@
   "author": "Gleb Uvarov",
   "title1": "Software Engineer",
   "title2": "",
-  "years": "2020",
+  "years": "2021",
   "personalInfo": {
     "address": "The Hague, Netherlands",
     "email": "g.uvarov@gmail.com",
@@ -11,13 +11,13 @@
   },
   "experience": [
     {
-      "headline": "10 years of experience in Design and Development using Java"
+      "headline": "11 years of experience in Design and Development using Java"
     },
     {
       "headline": "Cloud-Native Applications, Reactive Applications, Microservices, Search Engines"
     },
     {
-      "headline": "Java, Spring Boot, ElasticSearch, Linux/Unix, Kubernetes"
+      "headline": "Java, Spring Boot, Kafka, ElasticSearch, Linux/Unix, Kubernetes"
     }
   ],
   "employments": [
@@ -139,7 +139,7 @@
     },
 	{
       "skill": "Kubernetes/Docker",
-      "experience": "1",
+      "experience": "2",
       "proficiency": "Good"
     },
 	{
@@ -171,13 +171,13 @@
   "os": [
     {
       "skill": "MS Windows",
-      "experience": "9",
+      "experience": "10",
       "proficiency": "Excellent",
       "first": "true"
     },
     {
       "skill": "Linux",
-      "experience": "6",
+      "experience": "7",
       "proficiency": "Excellent"
     },
     {
@@ -189,7 +189,7 @@
   "rdbms": [
     {
       "skill": "MongoDB",
-      "experience": "2",
+      "experience": "3",
       "proficiency": "Good",
       "first": "true"
     },
@@ -229,54 +229,53 @@
   ],
   "tools": [
     {
-      "skill": "SVN",
-      "experience": "5",
-      "proficiency": "Excellent",
-      "first": "true"
-    },
-    {
       "skill": "Git",
       "experience": "6",
-      "proficiency": "Excellent"
+      "proficiency": "Excellent",
+	  "first": "true"
+    },
+	{
+      "skill": "SVN",
+      "experience": "5",
+      "proficiency": "Excellent" 
     },
     {
-      "skill": "IBM ClearCase",
-      "experience": "3",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "Teamcity",
-      "experience": "2",
-      "proficiency": "Excellent"
-    },
-    {
-      "skill": "Hudson/Jenkins",
-      "experience": "4",
+      "skill": "Jenkins",
+      "experience": "5",
       "proficiency": "Good"
     },
     {
       "skill": "Atlassian JIRA",
-      "experience": "5",
+      "experience": "6",
       "proficiency": "Good"
     }
   ],
   "ide": [
     {
       "skill": "IntelliJ IDEA",
-      "experience": "8",
+      "experience": "9",
       "proficiency": "Excellent",
       "first": "true"
     }
   ],
   "projects": [
      {
+      "name": "Data Enrichment Platform",
+      "description": "The Data Enrichment Platform is a flexible software platform for performing data enrichment by executing various algorithms on a collection of documents, retrieved from a certain data source system. The enrichment result are often annotated texts and images, but can also be new documents/images/..., e.g. in case of machine translation.",
+      "position": "Senior Software Engineer",
+      "responsibilities": "Platform Setup & Deployment, Stream components implementation, CI/CD, Monitoring & Alerting Setup, Performance Tests",
+      "technologies": "Java 11, Kubernetes, Kafka, Spring [Cloud Dataflow, Cloud Stream, Cloud Function, Batch, Boot], MongoDB",
+      "os": "Kubernetes",
+      "duration": "Jun 2020 - Present"
+     },
+	 {
       "name": "Ansera",
       "description": "Ansera is a search engine for patent information. The goal is to deliver highly relevant documents before the examiner starts working on a patent application. It provides search with plain text (find similar), custom domain-specific query language, and search for similar figures.",
       "position": "Senior Software Engineer",
       "responsibilities": "DSL grammar implementation, AST to Lucene translation, Custom search queries",
       "technologies": "Java 8, Kubernetes, ElasticSearch, Lucene, ANTLR, Spring, Hibernate, JUnit, Maven",
-      "os": "SLES 12",
-      "duration": "Dec 2014 - "
+      "os": "Kubernetes",
+      "duration": "Dec 2014 - May 2020"
     },
 	{
       "name": "Event Service",
@@ -330,7 +329,7 @@
     "programming": "Programming",
     "languages": "Languages",
     "technologies": "Technologies",
-    "os": "Operating Systems",
+    "os": "Platforms",
     "rdbms": "DBMSs",
     "appServers": "Application Servers",
     "tools": "CASE & Project Tools",
