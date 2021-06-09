@@ -1,7 +1,7 @@
 {
-  "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Java, ElasticSearch, Lucene, ANTLR, J2SE, J2EE, Hibernate, Spring Framework, Spring, MS Windows, Linux",
+  "keywords": "Gleb, Uvarov, Gleb Uvarov, Software, Engineer, Developer, Programmer, Team Leader, Senior, Application Development, SaM Solutions, Belarusian State University of Informatics and Radioelectronics, Information Technologies and Control, Artificial Intelligence, Java, ElasticSearch, Spring, Kafka, Spring, Kubernetes",
   "author": "Gleb Uvarov",
-  "title1": "Software Engineer",
+  "title1": "Lead Software Engineer",
   "title2": "",
   "years": "2021",
   "personalInfo": {
@@ -26,7 +26,7 @@
       "company": "European Patent Office",
       "url": "http://www.epo.org",
       "address": "Rijswijk, Netherlands",
-      "position": "Senior Software Engineer/Service Contractor",
+      "position": "Lead Software Engineer/Service Contractor",
       "responsibilities": "Software design & development"
     },
     {
@@ -88,10 +88,10 @@
   ],
   "certificates": [
      {
-      "title": "LFS158x: Introduction to Kubernetes",
-      "awarded": "edX",
-      "url": "https://courses.edx.org/certificates/1ee204a3630749c695da376a58ed6cd8",
-      "date": "January 2019"
+      "title": "CKAD: Certified Kubernetes Application Developer",
+      "awarded": "The Linux Foundation",
+      "url": "files/certificates/eCirtificate-CKAD.pdf",
+      "date": "May 2021"
      },
 	 {
       "title": "Oracle Certified Professional, Java SE 8 Programmer",
@@ -262,7 +262,7 @@
      {
       "name": "Data Enrichment Platform",
       "description": "The Data Enrichment Platform is a flexible software platform for performing data enrichment by executing various algorithms on a collection of documents, retrieved from a certain data source system. The enrichment result are often annotated texts and images, but can also be new documents/images/..., e.g. in case of machine translation.",
-      "position": "Senior Software Engineer",
+      "position": "Lead Software Engineer",
       "responsibilities": "Platform Setup & Deployment, Stream components implementation, CI/CD, Monitoring & Alerting Setup, Performance Tests",
       "technologies": "Java 11, Kubernetes, Kafka, Spring [Cloud Dataflow, Cloud Stream, Cloud Function, Batch, Boot], MongoDB",
       "os": "Kubernetes",
